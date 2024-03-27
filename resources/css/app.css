@@ -1,0 +1,96 @@
+body {
+    background-color: #ffffff; /* เปลี่ยนสีพื้นหลังของหน้าเว็บ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+h1 {
+   
+}
+.navbar {
+    background-color: #83afbc;
+    /* background-color: #6f9afd; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.offcanvas-header {
+    background-color: #D6EAF8;
+    /* background-color: #d3f3f5; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* border-radius: 8px; */
+}
+
+.offcanvas-body {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* border-radius: 8px; */
+}
+
+
+
+
+.table {
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+    /* overflow: hidden; */
+    white-space: nowrap;
+    overflow: scroll;
+    width: 100%;
+    box-shadow: 0px 6px 8px -6px rgba(24,39,75,0.12),
+        0px 8px 16px -6px rgba(24,39,75,0.08);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table .head {
+    border-bottom: solid 1px #EAEDED;
+    background-color: #D6EAF8;
+}
+table .head th {
+    padding: 16px 24px;
+    
+    font-weight: 800;
+    color: #0083db; 
+}
+table .column {
+    border-bottom: solid 1px #EAEDED;
+}
+table .column td {
+    padding: 12px 24px ;
+    word-wrap: break-word;
+   
+}
+table .column:nth-child(odd) {
+    background-color: #EBF5FB;
+}
+table .column:last-child {
+    border: none;
+}
+  
+
+
+.navbar .nav-link {
+    color: #333; /* เปลี่ยนสีของข้อความใน tabs */
+    font-weight: bold; /* เพิ่ม font-weight ให้ข้อความใน tabs เป็นตัวหนา */
+}
+
+.navbar .nav-link.active {
+    background-color: gray; /* เปลี่ยนสีพื้นหลังของ tab ที่เลือก */
+    color: #fff; /* เปลี่ยนสีของข้อความใน tab ที่เลือก */
+}
+
+.nav-pills {
+    border-radius: 10px;
+}
+
+.nav-pills .nav-link {
+    color: shy;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #000000;
+}
